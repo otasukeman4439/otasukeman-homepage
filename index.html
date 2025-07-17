@@ -1,130 +1,62 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>お助けマン | 公式サイト</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f2f2f2;
-      color: #333;
-    }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
-    header {
-      background-color: #0073aa;
-      color: white;
-      padding: 2rem 1rem;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin: 1rem 0;
-    }
-    .services, .contact {
-      padding: 2rem 0;
-    }
-    .service-box {
-      background: white;
-      margin: 1.5rem auto;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .button {
-      display: inline-block;
-      background: #0073aa;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      margin: 0.5rem;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      margin-top: 3rem;
-      padding: 1rem;
-      background: #eee;
-      font-size: 0.9rem;
-      text-align: center;
-    }
-    footer a {
-      color: #0073aa;
-      text-decoration: underline;
-      display: inline;
-    }
-    .lang-label {
-      font-weight: bold;
-      margin: 1.5rem 0 0.5rem 0;
-      color: #0073aa;
-      font-size: 1.1rem;
-    }
-    .sample-section p {
-      margin: 0.5rem 0 1rem 0;
-      line-height: 1.6;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>お助けマン</h1>
-      <h2>翻訳・写真編集・ビザ相談など、お困りごとはお任せください！</h2>
-    </header>
-    <section class="services">
-      <div class="service-box">
-        <h3>✅ 英語・タガログ語翻訳</h3>
-        <p>日本語 ⇄ 英語 ⇄ タガログ語の翻訳・通訳サービス</p>
-      </div>
-      <div class="service-box">
-        <h3>✅ 顔写真加工・修正</h3>
-        <p>しわ消し・自然な補正・顔の差し替えなど</p>
-      </div>
-      <div class="service-box">
-        <h3>✅ ビザ・書類サポート</h3>
-        <p>ビザ申請や各種書類翻訳・手続き支援</p>
-      </div>
-      <div class="service-box">
-        <h3>✅ 撮影サービス</h3>
-        <p>ホテル・料理・部屋などの写真撮影・編集</p>
-      </div>
-      <div class="service-box">
-        <h3>📄 翻訳サンプル：HIMARIの記事</h3>
-        <p>日本語・英語・タガログ語の翻訳例をご覧ください。</p>
+  <header>
+    <h1>お助けマン</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">サービス</a></li>
+        <li><a href="#about">自己紹介</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="sample-section">
-          <div class="lang-label">🌸 日本語</div>
-          <p>日本には数多くの天才ヴァイオリニストがいます。その中でも特に注目を集めているのは、現在13歳のHIMARIさんです。彼女は10歳までに日本や欧州の42のコンクールで1位を獲得し、10歳でアメリカのカーティス音楽院に最年少で合格しました。</p>
-
-          <div class="lang-label">🌍 English</div>
-          <p>Japan is home to many brilliant violin prodigies, but one who stands out in particular is 13-year-old HIMARI.<br>
-          By the age of 10, she had already won first place in 42 competitions across Japan and Europe, and at that same age, she became the youngest ever to be accepted into the Curtis Institute of Music in the United States.</p>
-
-          <div class="lang-label">🌎 Tagalog</div>
-          <p>Maraming magagaling na batang biyolinista sa Japan, ngunit ang isa sa mga pinaka-kapansin-pansin ay si HIMARI, na kasalukuyang 13 taong gulang.<br>
-          Bago pa siya mag-10 taong gulang, nanalo na siya ng unang gantimpala sa 42 na kumpetisyon sa Japan at Europa, at sa parehong edad ay siya ang pinakabatang tinanggap sa Curtis Institute of Music sa Estados Unidos.</p>
-        </div>
-      </div>
+  <main>
+    <section id="services" class="services">
+      <h2>サービス内容</h2>
+      <ul>
+        <li>翻訳（日本語・英語・タガログ語）</li>
+        <li>写真加工（顔入れ替え・美顔補正など）</li>
+        <li>ビザ・在留手続きのサポート</li>
+        <li>各種書類作成補助</li>
+      </ul>
     </section>
-    <section class="contact">
-      <h2>📩 お問い合わせ</h2>
-      <a class="button" href="https://mail.google.com/mail/?view=cm&to=muntinlupa2000@gmail.com" target="_blank">Gmailで連絡</a>
-      <a class="button" href="https://line.me/ti/p/WL8AcjgbF2">LINEで連絡</a>
+
+    <section id="about" class="about">
+      <h2>自己紹介</h2>
+      <p>こんにちは！「お助けマン」こと浦上義美です。三重県在住、現役の安全管理者として働くかたわら、副業として翻訳・画像編集・書類サポートを行っています。</p>
+      <p>妻はフィリピン人で、娘は英語が堪能な高校生。英語・日本語・タガログ語の3言語に対応可能です。</p>
     </section>
-    <footer>
-      © 2025 お助けマン | Yoshimi Urakami<br>
-      <a href="english.html">English Page</a>
-    </footer>
-  </div>
+
+    <section class="multilang">
+      <h2>注目の話題</h2>
+      <p>日本には数多くの天才ヴァイオリニストがいます。その中でも特に注目を集めているのは、現在13歳のHIMARIさんです。彼女は10歳までに日本や欧州の42のコンクールで1位を獲得し、10歳でアメリカのカーティス音楽院に最年少で合格しました。</p>
+
+      <h3>🇬🇧 English</h3>
+      <p>Japan is home to many brilliant violin prodigies, but one who stands out in particular is 13-year-old HIMARI. By the age of 10, she had already won first place in 42 competitions across Japan and Europe, and at that same age, she became the youngest ever to be accepted into the Curtis Institute of Music in the United States.</p>
+
+      <h3>🇵🇭 Tagalog</h3>
+      <p>Maraming magagaling na batang biyolinista sa Japan, ngunit ang isa sa mga pinaka-kapansin-pansin ay si HIMARI, na kasalukuyang 13 taong gulang. Bago pa siya mag-10 taong gulang, nanalo na siya ng unang gantimpala sa 42 na kumpetisyon sa Japan at Europa, at sa parehong edad ay siya ang pinakabatang tinanggap sa Curtis Institute of Music sa Estados Unidos.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>お問い合わせ</h2>
+      <p>ご相談・ご依頼は以下の方法でご連絡ください。</p>
+      <a class="button" href="mailto:muntinlupa2000@gmail.com?subject=%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%94%E7%94%A8%E4%BB%B6%E3%82%92%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%94%E8%A8%98%E5%85%A5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82" target="_blank">📧 Gmailで連絡</a>
+      <a class="button" href="https://line.me/R/ti/p/xxxxxxxx" target="_blank">💬 LINEで連絡</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 お助けマン | Yoshimi Urakami</p>
+    <p><a href="english.html">English Page</a></p>
+  </footer>
 </body>
 </html>
