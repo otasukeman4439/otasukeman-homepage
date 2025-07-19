@@ -4,15 +4,18 @@
   <url>
     <loc>https://otasukeman4439.github.io/otasukeman-homepage/</loc>
     <lastmod>2025-07-13</lastmod>
-    <priority>1.00</priority>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://otasukeman4439.github.io/otasukeman-homepage/english.html</loc>
     <lastmod>2025-07-13</lastmod>
-    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
+
 
 
