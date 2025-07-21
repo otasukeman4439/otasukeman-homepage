@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://otasukeman4439.github.io/otasukeman-homepage/</loc>
-    <lastmod>2025-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
-
+  <url>
+    <loc>https://otasukeman4439.github.io/otasukeman-homepage/index.html</loc>
+  </url>
   <url>
     <loc>https://otasukeman4439.github.io/otasukeman-homepage/english.html</loc>
-    <lastmod>2025-07-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://otasukeman4439.github.io/otasukeman-homepage/sample_himari.html</loc>
+  </url>
 </urlset>
+
 
 
 
