@@ -2,49 +2,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sample Himari</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    img {
-      max-width: 300px;
-      height: auto;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 28px;
-      color: #333;
-    }
-    p {
-      font-size: 18px;
-      color: #555;
-    }
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 10px 20px;
-      background-color: #3498db;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-    a:hover {
-      background-color: #2980b9;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Sample Himari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .back-link {
+            margin-top: 20px;
+            display: block;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Meet Himari</h1>
-  <img src="images/himari.jpg" alt="Himari's Photo">
-  <p>Himari is a bright and friendly person who enjoys helping others and learning new things.</p>
-  <a href="index.html">Back to Home</a>
+    <div class="container">
+        <h1>Welcome, Himari!</h1>
+        <img src="himari.jpg" alt="Himari">
+        <a class="back-link" href="index.html">Back to Home</a>
+    </div>
 </body>
 </html>
