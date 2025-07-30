@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://otasukeman4439.github.io/sitemap.xml
